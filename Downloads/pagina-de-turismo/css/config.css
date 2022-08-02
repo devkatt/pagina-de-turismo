@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (max-width: 800px) {
+    .sessoes, .sessao4_1{
+      width: 100%; 
+    }
+}
+
+
+.menu{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    display: flex;
+    font-size: 2vw;
+    font-weight: bold
+}
+
+
+.menu ul li{
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.imgfundorestaurante {
+    background-image: url("../imagens/restaurantes/alagoas-restaurantes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.imgfundopraias {
+    background-image: url("../imagens/praias/MalDeodoro_Frances.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgfundopontoturistico {
+    background-image: url("../imagens/pontos-turisticos/mirante.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgfundohotel {
+    background-image: url("../imagens/hoteis/alagoas-hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgfundoartesanato {
+    background-image: url("../imagens/artesanato/artesanato-al.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao4 {
+    height: 550px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sessao4_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 550px;
+}
+
+.sessao4_1 img {
+    height: 250px;
+    width: 250px;
+}
+
+.sessao4_1 img:hover {
+    transition: 0.5s;   
+    height: 400px;
+    width: 400px;
+}
+
+.sessoes h3 {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+

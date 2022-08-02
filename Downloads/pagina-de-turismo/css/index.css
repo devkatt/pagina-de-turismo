@@ -1,0 +1,42 @@
+#capa-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    background-image: url("../imagens/index/perfil-alagoas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+#capa-home img {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 70px;
+}
+
+#capa-home h1 {
+    width: 100px;
+}
+
+.sessao1 {
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(165, 164, 164);
+    transition: 0.5s;
+    width: 90%;
+}
+
+.sessao1:hover {
+    width: 90%;
+    transition: 0.5s;
+    transform: translateX(1em);
+    color: rgb(0, 0, 0);
+}
